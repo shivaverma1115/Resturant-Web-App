@@ -16,10 +16,9 @@ const ShoppingCart = () => {
         ).filter(item => item.quantity > 0))
     }
 
-    const removeItem = (id:number) => {
-        setItems(items.filter(item => item.id !== id))
-    }
-    console.log(removeItem)
+    // const removeItem = (id:number) => {
+    //     setItems(items.filter(item => item.id !== id))
+    // }
 
     const clearCart = () => {
         setItems([])

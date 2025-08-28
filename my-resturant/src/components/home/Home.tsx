@@ -11,9 +11,9 @@ import OrderTracking from '../order-tracking/OrderTracking'
 
 const Home = () => {
     return (
-        <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-6">
+        <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-3">
             <div className="max-w-6xl mx-auto">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                     <WelcomeScreen />
                     <MenuCategory />
                     <MenuItem />

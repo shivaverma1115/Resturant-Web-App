@@ -90,17 +90,16 @@ const OrderTracking = () => {
         return 'pending'
     }
 
-    const getStatusColor = (status: any, color: any) => {
-        switch (status) {
-            case 'completed':
-                return 'bg-green-100 text-green-600 border-green-200'
-            case 'current':
-                return `bg-${color}-100 text-${color}-600 border-${color}-200`
-            default:
-                return 'bg-gray-100 text-gray-400 border-gray-200'
-        }
-    }
-    console.log(getStatusColor)
+    // const getStatusColor = (status: any, color: any) => {
+    //     switch (status) {
+    //         case 'completed':
+    //             return 'bg-green-100 text-green-600 border-green-200'
+    //         case 'current':
+    //             return `bg-${color}-100 text-${color}-600 border-${color}-200`
+    //         default:
+    //             return 'bg-gray-100 text-gray-400 border-gray-200'
+    //     }
+    // }
 
     const getProgressWidth = () => {
         return ((currentStatus - 1) / 3) * 100
